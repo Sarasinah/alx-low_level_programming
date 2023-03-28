@@ -1,23 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 9 and letters between a to f.
- *
+ * main - Entry point
+ *Description: 'prints alphabets in reverse'
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int n = 122;
 
-	for (i = 48; i < 58; i++)
+	while (n >= 97)
 	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
+		putchar(n);
+		n--;
 	}
 	putchar('\n');
 	return (0);
 }
-
