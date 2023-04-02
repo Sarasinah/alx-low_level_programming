@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - main point
  * print_alphabet: 'print all alphabet in lowercase'
- * Return: always 0
+ * _putchar: 'print letter a to z on new line'
  */
 
 void print_alphabet(void)
