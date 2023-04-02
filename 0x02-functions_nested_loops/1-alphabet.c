@@ -9,7 +9,6 @@
 
 void print_alphabet(void)
 {
-	int _putchar(char c);
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
