@@ -3,7 +3,8 @@
 
 /**
  * main - main point
- * print_alphabet: 'print all alphabet in lowercase'
+ * Description: print alphabet a to z in smaller case
+ * print_alphabet - print all alphabet in lowercase
  * _putchar: 'print letter a to z on new line'
  */
 
